@@ -6,3 +6,7 @@ function nestedTarget(selector) {
   var nested = selector.split(" ");
   return document.getElementById(nested[0]).getElementsByClassName(nested[1]);
 }
+
+
+var test = nestedTarget('#nested .target');
+console.log(test);
