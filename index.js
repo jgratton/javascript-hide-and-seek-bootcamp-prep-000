@@ -3,6 +3,5 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  //var nested = selector.split(" ");
   return document.getElementById('nested').querySelector('div.target');
 }
