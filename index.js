@@ -4,9 +4,5 @@ function getFirstSelector(selector) {
 
 function nestedTarget(selector) {
   var nested = selector.split(" ");
-  return document.getElementById(nested[0]).getElementsByClassName(nested[1]);
+  return document.getElementById("#nested").getElementsByClassName(".target");
 }
-
-
-var test = document.getElementById("#nested").getElementsByClassName(".target");
-console.log(test);
