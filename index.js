@@ -2,7 +2,7 @@ function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
 
-function nestedTarget(selector) {
+function nestedTarget() {
   //var nested = selector.split(" ");
-  return document.getElementById("#nested").getElementsByClassName(".target");
+  return document.getElementById("nested").getElementsByClassName("div.target");
 }
