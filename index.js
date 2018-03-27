@@ -8,5 +8,5 @@ function nestedTarget(selector) {
 }
 
 
-var test = nestedTarget('#nested .target');
+var test = nestedTarget("#nested .target");
 console.log(test);
