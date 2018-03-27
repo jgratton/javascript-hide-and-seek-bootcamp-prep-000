@@ -4,6 +4,6 @@ function getFirstSelector(selector) {
 
 function nestedTarget(selector) {
   let nested = [];
-  nested = 
-  return document.getElementById(nested).getElementsByClassName(target);
+  nested = selector.split(' ');
+  return document.getElementById(nested[0]).getElementsByClassName(nested[1]);
 }
